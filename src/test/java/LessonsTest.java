@@ -86,7 +86,7 @@ public class LessonsTest {
     и что title этой страницы OpenWeatherMap API guide - OpenWeatherMap*/
 
     @ Test
-    public void test() throws InterruptedException{
+    public void testOpenWeatherMap() throws InterruptedException{
         System.setProperty("webdriver.chrome.driver", "/Users/nataliaghibner/ga_tools/chromedriver");
         WebDriver driver = new ChromeDriver();
 
